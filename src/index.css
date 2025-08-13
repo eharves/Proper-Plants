@@ -12,7 +12,6 @@ h2 {
   margin-top: 0;
 }
 
-/* Layout */
 .app-content {
   display: flex;
   gap: 2rem;
@@ -31,14 +30,12 @@ h2 {
   border-radius: 8px;
 }
 
-/* Plants grid */
 .plants-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 1rem;
 }
 
-/* Plant card */
 .plant-card {
   border: 1px solid white;
   padding: 1rem;
@@ -73,7 +70,7 @@ h2 {
   align-items: center;
   gap: 0.5rem;
   padding: 0.4rem 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid white;
 }
 
 .cart-item .emoji {
@@ -91,13 +88,10 @@ h2 {
 
 .cart-item button {
   background: white;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   padding: 0.2rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 4px;
 }
 
-.cart-item button:hover {
-  background: #f0f0f0;
-}
